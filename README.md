@@ -32,3 +32,13 @@ Open selected folder or file with Antigravity in one click.
 ### OpenWithVSCode
 Open selected folder or file with [Visual Studio Code](https://code.visualstudio.com/) instantly.
 **Note:** Requires [installation of `code` command line tool](https://code.visualstudio.com/docs/setup/mac#:~:text=You%20can%20also%20run%20VS%20Code%20from%20the%20terminal%20by%20typing%20%27code%27%20after%20adding%20it%20to%20the%20path%3A).
+
+### OpenWithPi
+Open the current Finder directory in a terminal and start the [pi coding agent](https://pi.dev) there.
+Uses iTerm2 when installed, otherwise falls back to Terminal.app.
+**Note:** Requires the `pi` command to be installed.
+
+### OpenWithCodex
+Open the current Finder directory in the [Codex](https://developers.openai.com/codex/) desktop app as a local project.
+Uses `codex app`, falling back to the app's `codex://threads/new?path=...` deep link.
+**Note:** Requires the Codex desktop app (installed as `ChatGPT.app`).
